@@ -50,6 +50,7 @@ function divideIntoGroups(arr) {
     console.log(`GroupA: ${groupA}`);
     console.log(`GroupB: ${groupB}`);
     console.log(`GroupC: ${groupC}`);
+    
 
     for (var j = 0; j < groupA.length; j++) {
         var newPTag = document.createElement("p");
