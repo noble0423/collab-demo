@@ -84,6 +84,9 @@ function divideIntoGroups(arr) {
 //=========================================================================================================================================
 $(document).ready(function() {
     $("#generate-btn").on("click", function() {
+        // empty html in order to load new users without duplicating
+        //alerts are bad practice; deleted
+        console.log("hi"); //@@ todo: remove before production
         shuffle(students);
     
     });
